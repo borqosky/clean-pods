@@ -3,7 +3,7 @@ FROM python:3.7-slim
 ENV API_URL="https://kubernetes.default.svc"
 ENV NAMESPACE="test"
 ENV MAX_DAYS="5"
-ENV POD_STATUS="Succeeded, Failed"
+ENV POD_STATUS="Succeeded, Failed, Evicted"
 ENV TOKEN=""
 
 ENV PYTHONUNBUFFERED=0
